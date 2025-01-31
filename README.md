@@ -1,4 +1,3 @@
-# Restaurant-order-analysis
 # Restaurant Order Analysis 🍽️
 
 [![Python](https://img.shields.io/badge/Python-3.x-blue.svg)](https://python.org)
