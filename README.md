@@ -10,30 +10,10 @@ A data analysis project that explores restaurant order patterns, popular dishes,
 
 ## Table of Contents
 - [Installation](#installation)
-- [Usage](#usage)
-- [Data Requirements](#data-requirements)
 - [Analysis Components](#analysis-components)
 - [Visualizations](#visualizations)
-- [Contributing](#contributing)
-
 
 ## Installation
-
-### Clone the Repository
-```bash
-git clone https://github.com/Samrudhp/Restaurant-order-analysis.git
-cd Restaurant-order-analysis
-```
-
-### Set Up Environment
-```bash
-# Create and activate virtual environment (optional but recommended)
-python -m venv venv
-source venv/bin/activate  # On Windows, use: venv\Scripts\activate
-
-# Install required packages
-pip install -r requirements.txt
-```
 
 ### Required Libraries
 ```txt
@@ -43,38 +23,6 @@ matplotlib
 jupyter
 ```
 
-## Usage
-
-1. **Prepare Your Data**
-   - Place your CSV files in the project directory:
-     - `order_details.csv`
-     - `menu_items.csv`
-
-2. **Launch Jupyter Notebook**
-   ```bash
-   jupyter notebook
-   ```
-
-3. **Open and Run Analysis**
-   - Navigate to `restaurant_analysis.ipynb`
-   - Run cells sequentially to perform analysis
-
-## Data Requirements
-
-### order_details.csv
-```
-Required columns:
-- item_id: Unique identifier for menu items
-- order_time: Timestamp of orders
-```
-
-### menu_items.csv
-```
-Required columns:
-- menu_item_id: Unique identifier matching item_id
-- item_name: Name of the dish
-- price: Price of the item
-```
 
 ## Analysis Components
 
@@ -109,14 +57,6 @@ The notebook generates three key visualizations:
 3. **Hourly Order Distribution**
    - Line graph showing order patterns
    - Helps optimize staffing and preparation
-
-## Contributing
-
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
 
 
 ## Contact
